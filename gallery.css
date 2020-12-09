@@ -1,0 +1,91 @@
+.header{
+	background-image: url("syal_frontside.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 120px ;
+    
+}	
+
+.header h1 { 
+     color: white ;
+     font-family: 'Arial';
+     font-size: 50px;
+     margin-left: 800px;
+}
+
+.barg {
+    display:table-footer-group;
+    font-family: 'Arial';
+    font-size:16px;
+    text-align:center;
+   }
+   
+.bar {
+    display:table-cell;
+    background-color:black;
+    padding:10px;
+    width:600px;    
+}
+
+.router {
+    text-decoration: underline;
+    color:red;
+}
+.router:hover, .router:active  {
+	background-color: white;
+	font-size:120%;
+}
+
+div.photo {
+	width: 45%;
+	background-color: black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 30px;
+	margin-left: 100px;
+	display: inline-block;
+}
+
+div.photo:hover, div.photo:active {
+	background-color: purple;
+}
+
+div.photo2 {
+	width: 34%;
+	background-color: black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 30px;
+	margin-left: 100px;
+	display: inline-block;
+}
+
+div.photo2:hover, div.photo2:active {
+	background-color: purple;
+}
+
+div.container {
+	text-align: center;
+	-webkit-animation:colorchange 10s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {color: blue;}
+
+  10% {color: #8e44ad;}
+  20% {color: #1abc9c;}
+  30% {color: #d35400;}
+  40% {color: yellow;}
+  50% {color: #34495e;}
+  60% {color: yellow;}
+  70% {color: #2980b9;}
+  80% {color: #f1c40f;}
+  90% {color: #2980b9;}
+  100% {color: pink;}
+}
+
+.web {
+	text-align: center;	
+}
+
+body{
+	background-color: wheat;
+}

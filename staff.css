@@ -1,0 +1,170 @@
+.header{
+	background-image: url("syal_frontside.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 120px ;
+    
+}	
+
+.header h1 { 
+     color: white ;
+     font-family: 'Arial';
+     font-size: 50px;
+     margin-left: 800px;
+     
+}
+
+.barg {
+    display:table-footer-group;
+    font-family: 'Arial';
+    font-size:16px;
+    text-align:center;
+   }
+.bar {
+    display:table-cell;
+    background-color:black;
+    padding:10px;
+    width:600px;
+    
+    }
+
+#hello {
+color:black;
+font-size:30px;
+text-align:center;
+}
+
+.type {
+ list-style-type: Roboto;
+ color: black;
+ display:inline-block;
+ font-size:26px;
+ margin-left:50px;
+}
+
+#square {
+ list-style-type: square;
+ margin-left: 1px;
+ -webkit-animation:colorchange 15s infinite alternate;
+ font-size:23px;
+}
+
+caption {
+    display:table-caption;
+    -webkit-animation:colorchange 10s infinite alternate;
+    font-size:30px;
+    background-color: black;
+}
+
+.table {
+	
+    width:600px;
+    height:100px;
+    border:3px black;
+    border-collapse:collapse;
+    font-family:Roboto;
+    text-align:center; 
+    margin-left:700px; 
+}
+
+.table1 {
+    width:600px;
+    height:100px;
+    border:3px black;
+    border-collapse:collapse;
+    font-family:Roboto;
+    text-align:center; 
+    margin-left:600px; 
+}
+
+.table2 {
+    width:600px;
+    height:100px;
+    border:3px black;
+    border-collapse:collapse;
+    font-family:Roboto;
+    text-align:center; 
+    margin-left:625px; 
+}
+
+tbody {
+  vertical-align:middle; 
+}
+
+.r {
+
+	color: red;	
+}
+
+tr:hover, tr:active {
+
+background-color: red;
+font-size: 120%;
+}
+
+th,td {
+    
+    border-collapse:collapse;
+    padding: 15px;
+}
+
+td {
+	border:7px dashed black;
+	background-color:white;
+    color:gray;
+    font-size:23px;
+    font-family: Roboto;
+    padding:25px;    
+}
+
+th {
+	border:7px solid black;
+    -webkit-animation:colorchange 20s infinite alternate;
+    font-family: Roboto;
+    font-size:26px;
+    padding:25px;
+    background-color:#00ffff;   
+}
+
+.router {
+    text-decoration: underline;
+    color:red;
+}
+.router:hover, .router:active  {
+	background-color: white;
+	font-size:120%;
+}
+.p {
+	color: black;
+	padding: 30px;
+	text-align: center;
+}
+
+
+@-webkit-keyframes colorchange {
+  0% {color: blue;}
+
+  10% {color: #8e44ad;}
+  20% {color: #1abc9c;}
+  30% {color: #d35400;}
+  40% {color: yellow;}
+  50% {color: #34495e;}
+  60% {color: yellow;}
+  70% {color: #2980b9;}
+  80% {color: #f1c40f;}
+  90% {color: #2980b9;}
+  100% {color: pink;}
+}
+
+.web {
+	text-align: center;
+		
+}
+
+
+body{ 
+	background-color:wheat;
+	
+}
+	
+
